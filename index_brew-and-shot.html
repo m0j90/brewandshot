@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style_brew-and-shot.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+  <link rel="icon" href="images/logo/favicon_brew-and-shot.png" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+
+<nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-expand-xxl navbar-bg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index_brew-and-shot.html">
+      <img src="images/logo/logo_brew-and-shot.jpg" alt="Brew & Shot Logo" style="width: 60px; margin-right: 10px; margin-bottom: 4px;">
+      Brew & Shot 
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end navbar-bg" tabindex="-1" id="offcanvasNavbar">
+      <div class="offcanvas-header navbar-header">
+        <img src="images/logo/logo_brew-and-shot.jpg" alt="Brew & Shot Logo" style="width: 60px; margin-right: 10px; margin-bottom: 4px;">
+        Brew & Shot
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+          <a class="nav-link nav-active" href="index_brew-and-shot.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about_brew-and-shot.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu_brew-and-shot.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact_brew-and-shot.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Carousel -->
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img class="img-fluid" src="images/carousel/carousel_brew-and-shot.png" class="d-block w-100">
+      <div class="carousel-caption">
+        <h1>Brew & Shot</h1>
+        <p>More than just coffee—this is your neighborhood spot for slow mornings, creative afternoons, and warm connections.</p>
+        <button type="button" class="btn btn-lg"><a href="menu_brew-and-shot.html" class="btn-link btn-outline">View Our Menu</a></button>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img class="img-fluid" src="images/carousel/carousel_brew-and-shot_2.png" class="d-block w-100">
+      <div class="carousel-caption">
+        <h1>Come Visit Us</h1>
+        <p>Great coffee, great dessert, warm people, and a nice place to sit.</p>
+        <button type="button" class="btn btn-lg"><a href="https://maps.app.goo.gl/P6QwPMF5Jk4gCxhU8" target="_blank" class="btn-link btn-outline">Find Us</a></button>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img class="img-fluid" src="images/carousel/carousel_brew-and-shot_3.png" class="d-block w-100">
+      <div class="carousel-caption">
+        <h1>Like and Follow Us</h1>
+        <p>Stay tuned on our Facebook, Instagram, and TikTok pages for daily cafe updates, special offers and new menu products!</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/profile.php?id=100089704350988" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/brewnshot/" class="social-icon" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@yszobel1_67jk3" class="social-icon" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Our Food and Drink Products Section -->
+
+<div class="container mt-5 mb-3 ourfoodanddrinkproducts-section">
+  <h1>Our Food and Drink Products</h1>
+  <div class="row">
+
+  <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#ModalRiceMeals">
+    <img class="img-fluid" src="images/ourfoodanddrinkproduct/ourfoodanddrinkproducts.jpg" style="width: 100%; height: auto;">
+    <h4>Rice Meals Category</h4>
+  </div>
+  <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#ModalIcedBlendedCream">
+    <img class="img-fluid" src="images/ourfoodanddrinkproduct/ourfoodanddrinkproducts_2.jpg" style="width: 100%; height: auto;">
+    <h4>Iced Blended Cream Category</h4>
+  </div>
+  <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#ModalPastries">
+    <img class="img-fluid" src="images/ourfoodanddrinkproduct/ourfoodanddrinkproducts_3.jpg" style="width: 100%; height: auto;">
+    <h4>Pastries Category</h4>
+  </div>
+
+  </div>
+</div>
+
+<!-- The Modal of the Rice Meals -->
+<div class="modal fade" id="ModalRiceMeals">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="images/ourfoodanddrinkproduct/ourfoodanddrinkproducts.jpg" style="width: 100%; height: auto; border-radius: 12px;">
+            </div>
+
+            <div class="col-md-6 mt-5 modal-desc">
+              <h4 class="modal-title">Rice Meals Category</h4>
+              <p class="mt-5">It is tasty and satisfying—perfect for any time of the day. Each dish comes with freshly cooked rice and flavorful dishes inspired by Filipino favorites. It is a comforting meal that feels like home, served in a relaxed cafe setting. Great for a quick bite.</p>
+              <button type="button" class="mt-5"><a href="ricemeals-category.html">View Our Rice Meals Menu</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn-modal" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- The Modal of the Iced Blended Cream -->
+<div class="modal fade" id="ModalIcedBlendedCream">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="images/ourfoodanddrinkproduct/ourfoodanddrinkproducts_2.jpg" style="width: 100%; height: auto; border-radius: 12px;">
+            </div>
+
+            <div class="col-md-6 mt-5 modal-desc">
+              <h4 class="modal-title">Iced Blended Category</h4>
+              <p class="mt-5">It is smooth, sweet, and perfectly refreshing—just what you need on a warm day. One sip will make you feel relaxed and happy. It is the perfect drink to enjoy while taking a break or spending time at your favorite cafe. Try it now and taste the comfort in every sip.</p>
+              <button type="button" class="mt-5"><a href="icedblended-coffee-cream-category.html">Our Iced Blended Menu</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn-modal" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- The Modal of the Pastries -->
+<div class="modal fade" id="ModalPastries">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Pastries Category</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="images/ourfoodanddrinkproduct/ourfoodanddrinkproducts_3.jpg" style="width: 100%; height: auto; border-radius: 12px;">
+            </div>
+
+            <div class="col-md-6 mt-5 modal-desc">
+              <h4 class="modal-title">Pastries Category</h4>
+              <p class="mt-5">Freshly baked and made with care, our pastries are soft, flavorful, and perfect for any time of the day. Each bite is warm, light, and satisfying—just what you need with your favorite drink. Whether you are starting your morning or taking a break, our pastries will surely brighten your day. Try one today and enjoy a simple, delicious treat.</p>
+              <button type="button" class="mt-5"><a href="pastries-category.html">View Our Pastries Menu</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn-modal" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Gallery Section -->
+
+<div class="gallery-bg">
+  <div class="container gallery-section">
+    <h1>Photo Albums</h1>
+    
+    <div class="row"> 
+      <div class="col-md-6">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#ModalGallery" src="images/brew-and-shot_gallery/landscape-gallery.png">
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#ModalGallery2" src="images/brew-and-shot_gallery/landscape-gallery_2.png">
+      </div>
+    </div>
+
+    <div class="row"> 
+      <div class="col-md-4">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#ModalGallery3" src="images/brew-and-shot_gallery/portrait-gallery_3.png">
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#ModalGallery4" src="images/brew-and-shot_gallery/portrait-gallery.png">
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#ModalGallery5" src="images/brew-and-shot_gallery/portrait-gallery_2.png">
+      </div>
+    </div>
+
+    <div class="row"> 
+      <div class="col-md-4">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#ModalGallery6" src="images/brew-and-shot_gallery/detailshots-gallery_2.png">
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#ModalGallery7" src="images/brew-and-shot_gallery/detailshots-gallery.png">
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#ModalGallery8" src="images/brew-and-shot_gallery/detailshots-gallery_3.png">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer-bg text-light py-5">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Brew & Shot Info -->
+            <div class="col-lg-4">
+                <h5 class="mb-4">About Us</h5>
+                <p class="mb-4">
+                  More than just coffee—this is your neighborhood spot for slow mornings, creative afternoons, and warm connections. Every cup is made with care, every visit feels like home.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=100089704350988" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/brewnshot/" class="social-icon" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@yszobel1_67jk3" class="social-icon" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-2">
+                <h5 class="mb-4">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="about_brew-and-shot.html" class="footer-link">About</a></li>
+                    <li class="mb-2"><a href="menu_brew-and-shot.html" class="footer-link">Menu</a></li>         
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-2 col-md-6">
+                <h5 class="mb-4">Services</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">Takeout</li>
+                    <li class="mb-2">Reservations</li>
+                    <li class="mb-2">Dine-in</li>
+                    <li class="mb-2">In-store pickup</li>
+                    <li class="mb-2">Outdoor seating</li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-4">
+                <h5 class="mb-4">Contact Info</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-3">
+                        <a href="https://maps.app.goo.gl/P6QwPMF5Jk4gCxhU8" target="_blank" class="footer-link">
+                          <i class="fas fa-map-marker-alt me-2"></i>
+                          #2 Susano Road Stall #5 Brgy. 170 Novaliches, Caloocan City, Caloocan, Philippines, 1400
+                        </a>
+                    </li>
+                    <li class="mb-3">                       
+                        <a href="tel:09953815867" class="footer-link">
+                          <i class="fas fa-phone me-2"></i>
+                          0995 381 5867
+                        </a>
+                    </li>
+                    <li class="mb-3">            
+                        <a href="mailto:brewandshot@gmail.com" class="footer-link">
+                          <i class="fas fa-envelope me-2"></i>
+                          brewandshot@gmail.com
+                        </a>
+                    </li>
+                    <li class="mb-3">            
+                        <a href="https://www.messenger.com/t/100447672955334" class="footer-link">
+                          <i class="fa-brands fa-facebook-messenger me-2"></i>
+                          Brew & Shot Messenger
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <hr class="mb-4">
+                <div class="text-center">
+                    <p class="mb-0">&copy; 2026 Brew & Shot. All rights reserved | Designed by Jerome Zabanal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
