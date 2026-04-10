@@ -4,8 +4,6 @@ body {
     background-color: #f0dbcc;
 }
 
-/* Navbar Styles */
-
 .navbar-bg {
     background-color: #413121;
     border-bottom: 0.25rem solid #b78d63;
@@ -71,8 +69,6 @@ body {
     padding-bottom: 0.5rem;
 }
 
-/* Footer Styles */
-
 footer h5 {
     color: #dead8a;
     font-weight: 700;
@@ -112,15 +108,11 @@ footer h5 {
     border-top: 0.25rem solid #b78d63;
 }
 
-/* Carousel Styles */
-
 .carousel-item img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
-
-/* Button Styles */
 
 .btn-link {
     color: #fff;
@@ -152,8 +144,6 @@ button:focus button:active {
     background-color: #dead8a;
     box-shadow: 0 0 8px #b78d63;
 }
-
-/* Caption Carousel */
 
 @media screen and (min-width: 1200px) {
     .carousel-caption {
@@ -354,8 +344,6 @@ button:focus button:active {
     }
 }
 
-/* Our Food and Drink Products Section */
-
 .ourfoodanddrinkproducts-section h1 {
     font-weight: 700;
     color: #413121;
@@ -382,8 +370,6 @@ button:focus button:active {
     text-align: center;
 }
 
-/* Gallery Section */
-
 .gallery-bg {
     background-color: #b98762;
     padding: 2.4rem;
@@ -408,8 +394,6 @@ button:focus button:active {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-/* Contact Section Styles */
 
 .contact-section {
     margin-top: 2.4rem;
@@ -488,16 +472,12 @@ button:focus button:active {
     box-shadow: 0 0 8px #b78d63;
 }
 
-/* Opening Hours Section */
-
 td {
     padding: 0.8rem;
     font-weight: 700;
     border-bottom: 1px solid #f0dbcc;
     background-color: #413121;
 }
-
-/* Headline Banner */
 
 .headline-banner {
     position: relative;
@@ -654,8 +634,6 @@ td {
     box-shadow: 0 0 8px #b78d63;
 }
 
-/* Bio Section */
-
 .bio-section h1 {
     font-weight: 700;
     color: #413121;
@@ -670,8 +648,6 @@ td {
     text-align: center;
     line-height: 2;
 }
-
-/* Our Story Section */
 
 .ourstory-section h1 {
     font-weight: 700;
@@ -749,8 +725,6 @@ td {
     color: #fff;
 }
 
-/* Horizontal Scrollable Category */
-
 .scrollmenu {  
     border-radius: 8px;
     overflow: auto;
@@ -786,8 +760,6 @@ td {
     color: #fff !important;
 }
 
-/* Menu Category */
-
 .headline-category h1 {
     color: #413121;
     font-weight: 700;
@@ -822,8 +794,6 @@ td {
     font-weight: 700;
     margin-top: 1rem;
 }
-
-/* Modal for Menu Items */
 
 .modal-menu-desc h4 {
     color: #f0dbcc;
