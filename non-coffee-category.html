@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Menu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style_brew-and-shot.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+  <link rel="icon" href="images/logo/favicon_brew-and-shot.png" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+
+<nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-expand-xxl navbar-bg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index_brew-and-shot.html">
+      <img src="images/logo/logo_brew-and-shot.jpg" alt="Brew & Shot Logo" style="width: 60px; margin-right: 10px; margin-bottom: 4px;">
+      Brew & Shot 
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end navbar-bg" tabindex="-1" id="offcanvasNavbar">
+      <div class="offcanvas-header navbar-header">
+        <img src="images/logo/logo_brew-and-shot.jpg" alt="Brew & Shot Logo" style="width: 60px; margin-right: 10px; margin-bottom: 4px;">
+        Brew & Shot
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+          <a class="nav-link" href="index_brew-and-shot.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about_brew-and-shot.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-active" href="menu_brew-and-shot.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact_brew-and-shot.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Headline Banner -->
+
+<div class="headline-banner">
+    <img class="img-fluid" src="images/banners/menu-banner.png">
+    <h1 class="headline-caption">Menu</h1>
+</div>
+
+<!-- Horizontal Scrollable Category-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 headline-category mt-4 mb-4">
+            <h1>Non Coffee</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 mb-5">
+            <div class="scrollmenu">
+                <!-- Drinks -->
+                <a href="menu_brew-and-shot.html">Brew & Desserts</a>
+                <a href="cocktail-category.html">Cocktails</a>
+                <a href="iced-hotcoffee.html">Iced & Hot Coffee</a>
+                <a href="icedblended-coffee-cream-category.html">Iced Blended Coffee & Cream</a>
+                <a class="scrollmenu-active" href="non-coffee-category.html">Non Coffee</a>
+                <a href="vietnamesecoffee-category.html">Vietnamese Coffee</a> 
+                <!-- Foods --> 
+                <a href="croffles-category.html">Croffles</a>
+                <a href="pasta-category.html">Pasta</a>
+                <a href="pastries-category.html">Pastries</a>
+                <a href="ricemeals-category.html">Rice Meals</a>
+                <a href="snacks-category.html">Snacks</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Food & Drink Categories-->
+
+    <div class="row g-4 mb-4 menu-category">
+        <div class="col-lg-12">
+            <h1>Iced</h1>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row g-4 mb-4 menu-category"> 
+      <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#ModalNonCoffee">
+        <img class="img-fluid mx-auto d-block" src="images/menu/noncoffee/strawberrycreme.png">
+        <h4>Strawberry Creme</h4>
+      </div>
+
+      <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#ModalNonCoffee_2">
+        <img class="img-fluid mx-auto d-block" src="images/menu/noncoffee/strawberrymatcha.png">
+        <h4>Strawberry Matcha</h4>
+      </div>
+    </div>
+
+    <div class="row g-4 mb-4 menu-category">
+        <div class="col-lg-12">
+            <h1>Hot</h1>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row g-4 mb-4 menu-category"> 
+      <div class="col-md-4" data-bs-toggle="modal" data-bs-target="#ModalNonCoffee_3">
+        <img class="img-fluid mx-auto d-block" src="images/menu/noncoffee/matchalatte-hot.png">
+        <h4>Matcha Latte</h4>
+      </div>
+    </div>
+
+</div>
+
+<!-- The Modal of the Non Coffee -->
+<div class="modal fade" id="ModalNonCoffee">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="images/menu/noncoffee/strawberrycreme.png" style="width: 100%; height: auto; border-radius: 12px;">
+            </div>
+
+            <div class="col-md-6 mt-5 modal-menu-desc">
+              <h4 class="modal-title">Strawberry Creme - &#8369 180.00</h4>
+              <h6 class="modal-title mt-2">Bestseller</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn-modal" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- The Modal of the Non Coffee_2 -->
+<div class="modal fade" id="ModalNonCoffee_2">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="images/menu/noncoffee/strawberrymatcha.png" style="width: 100%; height: auto; border-radius: 12px;">
+            </div>
+
+            <div class="col-md-6 mt-5 modal-menu-desc">
+              <h4 class="modal-title">Strawberry Matcha - &#8369 165.00</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn-modal" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- The Modal of the Non Coffee_3 -->
+<div class="modal fade" id="ModalNonCoffee_3">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="images/menu/noncoffee/matchalatte-hot.png" style="width: 100%; height: auto; border-radius: 12px;">
+            </div>
+
+            <div class="col-md-6 mt-5 modal-menu-desc">
+              <h4 class="modal-title">Matcha Latte - &#8369 140.00</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn-modal" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer-bg text-light py-5">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Brew & Shot Info -->
+            <div class="col-lg-4">
+                <h5 class="mb-4">About Us</h5>
+                <p class="mb-4">
+                  More than just coffee—this is your neighborhood spot for slow mornings, creative afternoons, and warm connections. Every cup is made with care, every visit feels like home.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=100089704350988" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/brewnshot/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@yszobel1_67jk3" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-2">
+                <h5 class="mb-4">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="index_brew-and-shot.html" class="footer-link">Home</a></li>
+                    <li class="mb-2"><a href="about_brew-and-shot.html" class="footer-link">About</a></li>         
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-2 col-md-6">
+                <h5 class="mb-4">Services</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">Takeout</li>
+                    <li class="mb-2">Reservations</li>
+                    <li class="mb-2">Dine-in</li>
+                    <li class="mb-2">In-store pickup</li>
+                    <li class="mb-2">Outdoor seating</li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-4">
+                <h5 class="mb-4">Contact Info</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-3">
+                        <a href="https://maps.app.goo.gl/P6QwPMF5Jk4gCxhU8" target="_blank" class="footer-link">
+                          <i class="fas fa-map-marker-alt me-2"></i>
+                          #2 Susano Road Stall #5 Brgy. 170 Novaliches, Caloocan City, Caloocan, Philippines, 1400
+                        </a>
+                    </li>
+                    <li class="mb-3">                       
+                        <a href="tel:09953815867" class="footer-link">
+                          <i class="fas fa-phone me-2"></i>
+                          0995 381 5867
+                        </a>
+                    </li>
+                    <li class="mb-3">            
+                        <a href="mailto:brewandshot@gmail.com" class="footer-link">
+                          <i class="fas fa-envelope me-2"></i>
+                          brewandshot@gmail.com
+                        </a>
+                    </li>
+                    <li class="mb-3">            
+                        <a href="https://www.messenger.com/t/100447672955334" class="footer-link">
+                          <i class="fa-brands fa-facebook-messenger me-2"></i>
+                          Brew & Shot Messenger
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <hr class="mb-4">
+                <div class="text-center">
+                    <p class="mb-0">&copy; 2026 Brew & Shot. All rights reserved | Designed by Jerome Zabanal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
