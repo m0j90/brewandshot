@@ -240,6 +240,50 @@ button:focus button:active {
     }
 }
 
+/* Extra small mobile screens (iPhone, etc.) */
+@media (max-width: 480px) {
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.85rem;
+    }
+    
+    .carousel-caption .btn a {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+/* iPhone 11 - 17 Pro specific adjustments */
+@media (max-width: 414px) {
+    .carousel-caption {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+        text-align: center;
+        padding: 1rem;
+        line-height: 1.3;
+        width: 90%;
+        z-index: 10;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 1.1rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+    
+    .carousel-caption .btn a {
+        font-size: 0.85rem;
+        padding: 6px 12px;
+    }
+}
+
 /* Tablet Responsive Fixes for Carousel (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
     .carousel-caption {
