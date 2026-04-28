@@ -832,6 +832,12 @@ td {
     text-align: center;
 }
 
+.menu-category h5 {
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
 .menu-category h1 {
     color: #413121;
     font-weight: 700;
