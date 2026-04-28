@@ -668,14 +668,13 @@ td {
     transition: all 0.3s ease;
     padding: 10px 20px;
     border-radius: 8px;
-    color: #fff;
+    color: #dead8a;
 }
 
 .btn-modal:hover {
-    color: #fff;
+    color: #413121;
     border-color: #dead8a;
     background-color: #dead8a;
-    box-shadow: 0 0 8px #b78d63;
 }
 
 .bio-section h1 {
@@ -859,4 +858,20 @@ td {
     color: #777;
     font-weight: 700;
     margin-left: 0.4rem;
+}
+
+.btn-order {
+    border: 2px solid #dead8a;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 8px;
+    max-width: 100%;
+    color: #413121;
+    background-color: #dead8a;
+}
+
+.btn-order:hover {
+    color: #dead8a;
+    border: 2px solid #fff;
+    background-color: transparent;
 }
